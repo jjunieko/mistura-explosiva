@@ -38,7 +38,11 @@ const VamosJogar = () => {
             <ScrollReveal className="max-w-lg flex flex-col gap-5">
               <div className="flex items-end gap-5">
                 <div>
-                  <img className="w-24" src={pathImageInicio} alt="Vamos Jogar?" />
+                  <img
+                    className="w-24"
+                    src={pathImageInicio}
+                    alt="Vamos Jogar?"
+                  />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
                   Casa “Início”
@@ -57,7 +61,11 @@ const VamosJogar = () => {
             <ScrollReveal className="max-w-lg flex flex-col gap-5">
               <div className="flex items-end gap-5">
                 <div>
-                  <img className="w-24 rounded-3xl" src={Icon03} alt="Vamos Jogar?" />
+                  <img
+                    className="w-24 rounded-3xl"
+                    src={Icon03}
+                    alt="Vamos Jogar?"
+                  />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
                   Casa Bege (casa vazia)
@@ -111,13 +119,14 @@ const VamosJogar = () => {
                   <img className="w-24 mb-2" src={Icon02} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Cenário/QR Code (parada interativa)
+                  Cenário/QR Code (parada interativa Obrigatoria)
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple">
-                Sempre que chegar a um cenário, o(a) jogador(a) deverá acessar o
-                QR Code com a ajuda de um celular, assistir ao vídeo e executar
-                a ação falada.
+                Sempre que chegar a um cenário, o(a) jogador(a) deve parar e
+                acessar o QR Code (código de barras) com a ajuda de um celular
+                conectado à internet, assistir ao vídeo e executar a ação
+                falada.
               </p>
             </ScrollReveal>
             {/* Card */}
@@ -127,37 +136,43 @@ const VamosJogar = () => {
                   <img className="w-24" src={Icon04} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Casa Lilás (jogar dois dados)
+                  Casa Lilás (jogar 2 dados) "Jogador bonus".
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
-                Percurso opcional. O(a) jogador(a) poderá ir em direção a elas e
-                tentar a sorte.
+                Nessa casa, o(a) jogador(a) poderá tentar a sorte uma única vez.
+                E se não der sorte, basta seguir o curso normal do jogo,
+                utilizando apenas um dado, na próxima rodada.
+              </p>
+              <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
+                Se alguma jogada obrigar um(a) jogador(a) a voltar casas no
+                tabuleiro e ele(a) parar novamente sobre a casa lilás, poderá
+                tentar a sorte mais uma vez.
               </p>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
                 <span className="font-bold">
                   Casa Lilás após o Cenário N° 2:
                 </span>
-                <br /> “atalho do bem”. Se um(a) jogador(a) que estiver nessa
-                casa jogar os dois dados e a soma for um número maior que 10, ou
-                seja, 11 ou 12, ele poderá ir direto para o Cenário N° 3.{" "}
+                <br /> “atalho do bem”. Se o(a) jogador(a) que estiver nessa
+                casa jogar os dois dados e saírem dois números iguais, como 2 e
+                2 por exemplo, ele(a) poderá pular direto para o Cenário N° 3.
               </p>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
                 <span className="font-bold">
                   Casa Lilás após o Cenário N° 4:
                 </span>
-                <br /> “atalho do mal”. Se um(a) jogador(a) que estiver nessa
-                casa jogar os dois dados e a soma for um número menor que 4, ou
-                seja, 2 ou 3, ele poderá escolher outro(a) jogador(a) para ir
-                direto para o Cenário N° 2.{" "}
+                <br /> “atalho do mal”. Se o(a) jogador(a) que estiver nessa
+                casa jogar os dois dados e saírem dois números iguais, como 3 e
+                3 por exemplo, ele(a) deverá escolher um(a) jogador(a) mais
+                adiantado para voltar para o Cenário N° 2.
               </p>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-5">
-              <span className="font-bold">Casa “Fim”:</span> última casa do jogo. Para conquistar a vitória, o(a)
-                jogador(a) deverá acessar o QR Code dessa casa e assistir ao
-                vídeo.
+                <span className="font-bold">Casa “Fim”:</span> última casa do
+                jogo. Para conquistar a vitória, o(a) jogador(a) deverá acessar
+                o QR Code dessa casa e assistir ao vídeo.
               </p>
             </ScrollReveal>
-  
+
             {/* Card */}
             <ScrollReveal className="max-w-lg flex flex-col gap-5">
               <div className="flex items-end gap-5">

@@ -6,7 +6,8 @@ import { useInView } from "react-intersection-observer";
 
 function Jogo() {
   const { ref: jogoRef, inView: inViewJogo } = useInView();
-  const { ref: LimpandoConceitosRef, inView: inViewLimpandoConceitos } = useInView()
+  const { ref: LimpandoConceitosRef, inView: inViewLimpandoConceitos } =
+    useInView();
   const { ref: sobreRef, inView: inViewSobre } = useInView();
 
   return (
@@ -22,22 +23,31 @@ function Jogo() {
         </div>
       </ScrollReveal>
 
-        <span ref={LimpandoConceitosRef} className={`${inViewLimpandoConceitos ? 'fade-in-right' : ''} text-lg  md:text-4xl font-bold text-mYellow`}>LIMPANDO CONCEITOS, CLAREANDO IDEIAS</span>
+      <div className="text-mYellow font-bold">MISTURA EXPLOSIVA</div>
+      <span
+        ref={LimpandoConceitosRef}
+        className={`${
+          inViewLimpandoConceitos ? "fade-in-right" : ""
+        } text-lg  md:text-4xl font-bold text-mYellow italic`}
+      >
+        LIMPANDO CONCEITOS, CLAREANDO IDEIAS
+      </span>
 
       <div className="bg-white shadow-md pt-4 pb-8 md:py-16 px-4 md:px-16 flex flex-col md:grid md:grid-cols-4 gap-10 rounded-3xl">
         <div className="col-span-2">
           <ScrollReveal className="text-sm md:text-start md:text-lg text-mPurple font-semibold mb-5">
-            Sabe aquela misturinha “infalível” que consiste em juntar um produto
-            de limpeza com outro, para intensificar a limpeza em casa? Essas e
-            tantas outras dicas que parecem inofensivas podem trazer riscos à
-            nossa saúde – e levar até a morte. Para evitar episódios como esses,
-            que se tornaram mais comuns na época da pandemia de Covid-19, em que
-            boa parte da população se encontrava em isolamento dentro de casa, o
-            Sistema CFQ/CRQs e a Associação Brasileira das Indústrias de
-            Produtos de Higiene, Limpeza e Saneantes (ABIPLA) formaram uma
-            parceria para dissipar desinformações (também conhecidas como fake
-            news) que, de tempos em tempos, insistem em aparecer nas redes
-            sociais e nos nossos celulares.
+            Com certeza você já viu alguém divulgando uma misturinha caseira
+            “infalível” de produtos de limpeza que promete potencializar a
+            faxina em casa, não é mesmo? Essas e tantas outras dicas que parecem
+            inofensivas podem trazer riscos à nossa saúde – e levar até a morte.
+            Para evitar episódios como esses, que se tornaram mais comuns na
+            época da pandemia de Covid-19, em que boa parte da população se
+            encontrava em isolamento dentro de casa, o Sistema CFQ/CRQs e a
+            Associação Brasileira das Indústrias de Produtos de Higiene, Limpeza
+            e Saneantes (ABIPLA) firmaram uma parceria para combater desinformações
+            desinformações (também conhecidas como fake news) que, de tempos em
+            tempos, insistem em aparecer nas redes sociais e nos nossos
+            celulares.
           </ScrollReveal>
 
           <ScrollReveal className="text-sm md:text-start md:text-lg text-mPurple font-semibold mb-5">
@@ -82,7 +92,13 @@ function Jogo() {
         </div>
         <div className="flex flex-col gap-5 md:gap-5 lg:col-span-2">
           <ScrollReveal className="flex justify-center items-center md:py-16">
-            <img ref={sobreRef} className={`${inViewSobre ? 'fade-in-right' : ''} `} src={JogoImg} alt="Jogo" srcset="" />
+            <img
+              ref={sobreRef}
+              className={`${inViewSobre ? "fade-in-right" : ""} `}
+              src={JogoImg}
+              alt="Jogo"
+              srcset=""
+            />
           </ScrollReveal>
           <ScrollReveal className="2xl:hidden text-sm md:text-start md:text-lg text-mPurple font-semibold">
             O Mistura Explosiva tem como metodologia a linha progressiva, em que

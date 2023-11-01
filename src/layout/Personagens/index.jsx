@@ -30,7 +30,7 @@ function Personagens() {
           </ScrollReveal>
           <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
-            A inspiração para o nome “Amon Níako” veio da amônia (NH3), uma
+            A inspiração para o nome “Amon Níako” veio da amônia (NH<sub>3</sub>), uma
             substância química que também é conhecida como amoníaco. Em
             temperatura ambiente, a amônia é um gás incolor, alcalino e
             irritante que, se manipulado de forma incorreta, pode oferecer

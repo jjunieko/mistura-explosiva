@@ -58,13 +58,6 @@ const Campanha = () => {
           </div>
         </ScrollReveal>
       </div>
-      <p className="text-mPurple md:text-xl md:text-start font-medium mb-5 md:pb-10">
-        No final do mês de agosto de 2022, a campanha “Mistura Explosiva:
-        Limpando conceitos, clareando ideias” começou a ser divulgada. Como
-        primeira ação, o CFQ e a ABIPLA promoveram o primeiro Workshop para
-        Jornalistas e Influencers, como parte de uma ação educativa contra
-        mistura caseira de saneantes.
-      </p>
       <div className="flex flex-col md:flex-row justify-center gap-10 mb-10 md:mb-20">
         <ScrollReveal className="shadow-md">
           <img src={av1} alt="Avaliação" />
