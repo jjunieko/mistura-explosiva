@@ -23,12 +23,15 @@ function Jogo() {
         </div>
       </ScrollReveal>
 
-      <div className="text-mYellow font-bold">MISTURA EXPLOSIVA</div>
+      <div ref={LimpandoConceitosRef}
+        className={`${
+          inViewLimpandoConceitos ? "fade-in-right" : ""
+        } text-lg  md:text-3xl font-bold text-mYellow italic`}  >MISTURA EXPLOSIVA</div>
       <span
         ref={LimpandoConceitosRef}
         className={`${
           inViewLimpandoConceitos ? "fade-in-right" : ""
-        } text-lg  md:text-4xl font-bold text-mYellow italic`}
+        } text-mYellow font-bold`}
       >
         LIMPANDO CONCEITOS, CLAREANDO IDEIAS
       </span>
