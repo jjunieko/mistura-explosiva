@@ -77,14 +77,14 @@ const Regras = () => {
               </ScrollReveal>
               <ScrollReveal className="text-mPurple text-sm font-bold mb-5">
                 Exceção: Se alguma carta ou jogada obrigar o(a) jogador(a) a
-                voltar casas no tabuleiro. Nesse caso, o cenário é o limite de
-                retorno do(a) jogador(a).
+                voltar casas no tabuleiro. Nesse caso, a primeira casa após o
+                cenário é o limite de retorno do(a) jogador(a).
               </ScrollReveal>
               <ScrollReveal className="text-mPurple text-sm font-bold mb-5">
                 {" "}
-                Ex.: Se o (a) jogador (a) estiver numa casa após o cenário e uma
-                carta ou jogada o obrigar a voltar 2 casas, ele(a) só poderá
-                voltar até a primeira casa após o cenário. Ou seja, não poderá
+                Ex.: Se o(a) jogador(a) estiver 2 casas após o cenário e uma
+                carta ou jogada o(a) obrigar a voltar 3 casas, ele(a) só pode
+                voltar até a primeira casa após o cenário. Ou seja, não pode
                 entrar novamente no cenário. Na próxima jogada, basta jogar o
                 dado e seguir o curso normal do jogo.
               </ScrollReveal>

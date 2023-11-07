@@ -33,7 +33,7 @@ function Jogo() {
           inViewLimpandoConceitos ? "fade-in-right" : ""
         } text-mYellow font-bold`}
       >
-        LIMPANDO CONCEITOS, CLAREANDO IDEIAS
+        LIMPANDO CONCEITOS, CLAREANDO IDEIAS!
       </span>
 
       <div className="bg-white shadow-md pt-4 pb-8 md:py-16 px-4 md:px-16 flex flex-col md:grid md:grid-cols-4 gap-10 rounded-3xl">
@@ -47,7 +47,7 @@ function Jogo() {
             época da pandemia de Covid-19, em que boa parte da população se
             encontrava em isolamento dentro de casa, o Sistema CFQ/CRQs e a
             Associação Brasileira das Indústrias de Produtos de Higiene, Limpeza
-            e Saneantes (ABIPLA) firmaram uma parceria para combater desinformações
+            e Saneantes (ABIPLA) firmaram uma parceria para combater
             desinformações (também conhecidas como fake news) que, de tempos em
             tempos, insistem em aparecer nas redes sociais e nos nossos
             celulares.

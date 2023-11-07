@@ -96,7 +96,7 @@ function Personagens() {
             iniciativa do Sistema CFQ/CRQs que conta com diversos parceiros para
             combater as desinformações da área da Química. Se você quiser saber
             mais sobre a CIQ, se tornar um parceiro ou fazer denúncias, basta
-            acessar: ciq.cfq.org.br.
+            acessar: <a href="https://ciq.cfq.org.br/">ciq.cfq.org.br</a>.
           </ScrollReveal>
           <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}

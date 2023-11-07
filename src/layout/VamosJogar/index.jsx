@@ -119,7 +119,7 @@ const VamosJogar = () => {
                   <img className="w-24 mb-2" src={Icon02} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Cenário/QR Code (parada interativa Obrigatoria)
+                  Cenário/QR Code (parada interativa Obrigatória)
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple">
@@ -136,7 +136,7 @@ const VamosJogar = () => {
                   <img className="w-24" src={Icon04} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Casa Lilás (jogar 2 dados) "Jogador bonus".
+                  Casa Lilás (jogar 2 dados) "Jogada bonus".
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
@@ -165,11 +165,6 @@ const VamosJogar = () => {
                 casa jogar os dois dados e saírem dois números iguais, como 3 e
                 3 por exemplo, ele(a) deverá escolher um(a) jogador(a) mais
                 adiantado para voltar para o Cenário N° 2.
-              </p>
-              <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-5">
-                <span className="font-bold">Casa “Fim”:</span> última casa do
-                jogo. Para conquistar a vitória, o(a) jogador(a) deverá acessar
-                o QR Code dessa casa e assistir ao vídeo.
               </p>
             </ScrollReveal>
 
