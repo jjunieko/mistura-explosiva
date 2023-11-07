@@ -119,7 +119,7 @@ const VamosJogar = () => {
                   <img className="w-24 mb-2" src={Icon02} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Cenário/QR Code (parada interativa Obrigatória)
+                  Cenário/QR Code (parada interativa obrigatória)
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple">
@@ -136,7 +136,7 @@ const VamosJogar = () => {
                   <img className="w-24" src={Icon04} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Casa Lilás (jogar 2 dados) "Jogada bonus".
+                  Casa Lilás (jogar 2 dados) "Jogada bônus".
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
