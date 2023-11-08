@@ -136,7 +136,7 @@ const VamosJogar = () => {
                   <img className="w-24" src={Icon04} alt="Vamos Jogar?" />
                 </div>
                 <span className="text-xl font-extrabold text-mOrange">
-                  Casa Lilás (jogar 2 dados) "Jogada bônus".
+                  Casa Lilás (jogar 2 dados) "Jogada bônus"
                 </span>
               </div>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-0">
