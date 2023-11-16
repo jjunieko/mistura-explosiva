@@ -137,8 +137,7 @@ const Campanha = () => {
         </ScrollReveal>
       </div>
       <p className="text-mPurple md:text-xl md:text-start font-medium md:py-10">
-        Em 2023, outros estados brasileiros também receberam a campanha, como
-        Rio de Janeiro, Pernambuco, Paraíba, Bahia e Santa Catarina.
+      Em 2023, outros estados brasileiros também receberam a campanha, como Rio de Janeiro, Pernambuco, Paraíba, Bahia, Santa Catarina e Rio Grande do Norte.
       </p>
       <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
