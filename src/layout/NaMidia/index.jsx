@@ -1,9 +1,14 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import ScrollReveal from "../../utils/animations/ScrollReveal";
-import ButtonCampanha from "../../components/ButtonCampanha";
-import img05 from "../../assets/imgs/campanha/5.jpg";
-import img5 from "../../assets/imgs/5.png";
+import clipimg1 from "../../assets/imgs/clipping_01.png";
+import clipimg2 from "../../assets/imgs/clipping_02.png";
+import clipimg3 from "../../assets/imgs/clipping_03.png";
+import clipimg4 from "../../assets/imgs/clipping_04.png";
+import clipimg5 from "../../assets/imgs/clipping_05.png";
+import clipimg6 from "../../assets/imgs/clipping_06.png";
+import clipimg7 from "../../assets/imgs/clipping_07.png";
+
 
 const NaMidia = () => {
   const { ref: naMmidiaRef, inView: inViewNaMidia } = useInView();
@@ -34,9 +39,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg1} alt="Imagem"  style={{}}/>
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">RadioAgência</span> -
                   Campanha previne receitas caseiras que misturam produtos de
@@ -55,9 +60,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg2} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center p-2">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">RedeTV! News</span>-
                   Produtos de limpeza: misturas são perigosas
@@ -78,9 +83,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg3} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center ">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">HOUSEHOLD INNOVATION</span>
                    - ABIPLA e CFQ alertam sobre misturas caseiras de limpeza
@@ -98,9 +103,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg5} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center p-2">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">Notícias do SBT | DF</span>
                    - Receitas Perigosas
@@ -121,9 +126,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg4} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">R7 | JR 24h</span>
                    - Uso de fórmulas caseiras na limpeza pode causar risco à saúde
@@ -141,9 +146,9 @@ const NaMidia = () => {
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg6} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center p-2">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">quimica.com.br</span>-
                   quimica.com.br - Os riscos das misturas caseiras!
@@ -160,13 +165,13 @@ const NaMidia = () => {
             href="https://extra.globo.com/economia/noticia/2023/04/misturar-produtos-de-limpeza-traz-risco-a-saude.ghtml"
             target="_blank"
             rel="noopener noreferrer"
-            className="card border border-white max-w-lg flex flex-col gap-5 mb-6 md:mb-20"
+            className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
             <ScrollReveal className="card bg-transparent">
               <div>
-                <img className="img-campanha" src={img05} alt="Imagem" />
+                <img className="img-campanha" src={clipimg7} alt="Imagem" />
               </div>
-              <div className="flex justify-center mb-1 text-center px-4">
+              <div className="flex justify-center mb-1 text-center p-2">
                 <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">EXTRA | Economia</span> 
                    - Misturar produtos de limpeza traz risco à saúde. Combinações podem ser perigosas
