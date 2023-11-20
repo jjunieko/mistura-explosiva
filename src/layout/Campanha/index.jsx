@@ -149,8 +149,6 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720312373703' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
-      </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img05} alt="Imagem" />
@@ -159,6 +157,9 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720307270548' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img06} alt="Imagem" />
@@ -167,8 +168,6 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308134955' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
-      </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img07} alt="Imagem" />
@@ -177,6 +176,8 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308416269' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img08} alt="Imagem" />
@@ -185,8 +186,6 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308892652' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
-      </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img09} alt="Imagem" />
@@ -195,6 +194,8 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308724549' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
             <img className="img-campanha" src={img10} alt="Imagem" />
@@ -203,16 +204,16 @@ const Campanha = () => {
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720310080899' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
-      </div>
-      <div className="flex justify-center gap-10 justify-items-center md:px-20 mb-10 md:mb-0">
-        <ScrollReveal className="card bg-white max-w-sm 2xl:max-w-lg 2xl:max-w-lg flex flex-col gap-5">
-          <div>
+        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
+        <div>
             <img className="img-campanha" src={img11} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
             <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720310080899' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
+      </div>
+      <div className="flex justify-center gap-10 justify-items-center md:px-20 mb-10 md:mb-0">
       </div>
     </div>
   );
