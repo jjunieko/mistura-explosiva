@@ -1,11 +1,13 @@
 import React from "react";
-import RodapeLogos from '../../assets/imgs/rodape-logos.png'
+import RodapeLogos from '../../assets/imgs/logo_sistemacfq.svg'
+import RodapeLogos02 from '../../assets/imgs/logo abipla.svg'
 
 const Footer = () => {
   return (
     <footer className="footer shadow-lg py-10 px-10 md:px-0">
       <div className="flex justify-center items-center gap-10">
-        <img className="w-80" src={RodapeLogos} alt="" />
+        <img className="h-40 w-40" src={RodapeLogos} alt="" />
+        <img className="h-40 w-40" src={RodapeLogos02} alt="" />
       </div>
       <div className="flex flex-col gap-5 items-center mt-5">
         <div class="social text-center">

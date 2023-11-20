@@ -19,6 +19,7 @@ import img2 from '../../assets/imgs/2.png'
 import img3 from '../../assets/imgs/3.png'
 import img4 from '../../assets/imgs/4.png'
 import img5 from '../../assets/imgs/5.png'
+import flicker01 from '../../assets/imgs/flicker01.jpg'
 import ButtonCampanha from "../../components/ButtonCampanha";
 import ScrollReveal from "../../utils/animations/ScrollReveal";
 import { useInView } from "react-intersection-observer";
@@ -139,6 +140,16 @@ const Campanha = () => {
       <p className="text-mPurple md:text-xl md:text-start font-medium md:py-10">
       Em 2023, outros estados brasileiros também receberam a campanha, como Rio de Janeiro, Pernambuco, Paraíba, Bahia, Santa Catarina e Rio Grande do Norte.
       </p>
+      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
+        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
+          <div>
+            <img className="img-campanha" src={flicker01} alt="Imagem" />
+          </div>
+          <div className="flex justify-center mb-5">
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720312373703' target='_blank'>Acesse</ButtonCampanha>
+          </div>
+        </ScrollReveal>
+      </div>
       <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>

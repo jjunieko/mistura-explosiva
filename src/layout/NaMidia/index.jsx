@@ -37,7 +37,7 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal>
               <div>
                 <img className="img-campanha" src={clipimg1} alt="Imagem"  style={{}}/>
               </div>
@@ -58,12 +58,12 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal>
               <div>
                 <img className="img-campanha" src={clipimg2} alt="Imagem" />
               </div>
               <div className="flex justify-center mb-1 text-center">
-                <p className="text-white mt-3 text-sm p-2">
+                <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">RedeTV! News</span>-
                   Produtos de limpeza: misturas são perigosas
                 </p>
@@ -81,7 +81,7 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal>
               <div>
                 <img className="img-campanha" src={clipimg3} alt="Imagem" />
               </div>
@@ -101,14 +101,14 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20 "
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal>
               <div>
                 <img className="img-campanha" src={clipimg5} alt="Imagem" />
               </div>
               <div className="flex justify-center mb-1 text-center">
-                <p className="text-white mt-3 text-sm p-2">
+                <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">Notícias do SBT | DF </span> 
-                     - Receitas Perigosas                  
+                    - Receitas Perigosas       
                 </p>
               </div>
             </ScrollReveal>
@@ -124,7 +124,7 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal>
               <div>
                 <img className="img-campanha" src={clipimg4} alt="Imagem" />
               </div>
@@ -144,12 +144,12 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal >
               <div>
                 <img className="img-campanha" src={clipimg6} alt="Imagem" />
               </div>
               <div className="flex justify-center mb-1 text-center ">
-                <p className="text-white mt-3 text-sm p-2">
+                <p className="text-white mt-3 text-sm">
                   <span className="font-bold text-white">quimica.com.br</span>-
                   quimica.com.br - Os riscos das misturas caseiras!
                 </p>
@@ -167,7 +167,7 @@ const NaMidia = () => {
             rel="noopener noreferrer"
             className="card border border-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20"
           >
-            <ScrollReveal className="card bg-transparent">
+            <ScrollReveal >
               <div>
                 <img className="img-campanha" src={clipimg7} alt="Imagem" />
               </div>
