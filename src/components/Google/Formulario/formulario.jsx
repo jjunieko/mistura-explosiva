@@ -225,7 +225,7 @@ const Formulario = () => {
         </div>
 
         {/* Botão de Envio */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-2">
           <button
             type="submit"
             className="bg-[#EE7C4A] text-white p-4 font-bold rounded-[24px] hover:bg-[#fca079] transition duration-300 mx-auto w-60"
