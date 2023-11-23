@@ -80,7 +80,7 @@ const Formulario = () => {
   };
 
   return (
-    <div className="formulario container p-20">
+    <div className="formulario container p-10 md:p-20 ">
       <form onSubmit={handleSubmit} className="mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-white">
           Mistura Explosiva na Escola
