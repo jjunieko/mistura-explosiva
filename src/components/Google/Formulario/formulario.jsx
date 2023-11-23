@@ -52,7 +52,7 @@ const Formulario = () => {
       );
 
       // Verificar se a solicitação foi bem-sucedida
-      if (response.ok) {
+      if (response.status(200) || response.status(201)) {
         // Limpar o formulário
         setFormData({
           nomeEscola: "",
@@ -67,9 +67,7 @@ const Formulario = () => {
           mensagem: "",
         });
 
-        setMessage(true);
-        window.scrollTo(0, 0);
-        return;
+        alert("Obrigado pelo envio do formulário! Seu formulário foi enviado com sucesso.");
       } else {
         console.error(
           "Falha ao enviar dados do formulário:",
@@ -83,12 +81,6 @@ const Formulario = () => {
 
   return (
     <div className="formulario container p-20">
-      {/* Mensagem de Agradecimento */}
-      {setMessage && (
-        <div className="text-white text-lg font-bold mb-4">
-          Obrigado por preencher os dados!
-        </div>
-      )}
       <form onSubmit={handleSubmit} className="mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-white">
           Mistura Explosiva na Escola
