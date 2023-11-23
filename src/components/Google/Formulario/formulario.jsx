@@ -52,7 +52,7 @@ const Formulario = () => {
       );
 
       // Verificar se a solicitação foi bem-sucedida
-      if (response.status(200) || response.status(201)) {
+      if (response.ok) {
         // Limpar o formulário
         setFormData({
           nomeEscola: "",
