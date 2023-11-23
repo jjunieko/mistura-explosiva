@@ -12,7 +12,8 @@ import Footer from "./Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
 import NavigationMobile from "./NavigationMobile";
 import ScrollReveal from "../utils/animations/ScrollReveal";
-import VamosJogarMobile from './VamosJogarMobile/index';
+import VamosJogarMobile from "./VamosJogarMobile/index";
+import Formulario from "../components/Google/Formulario/formulario";
 
 function LandingPage() {
   const { scrollYProgress } = useScroll();
@@ -56,6 +57,9 @@ function LandingPage() {
           <section id="na-midia" className="">
             <NaMidia />
           </section>
+          <div id="formulario" className="formulario">
+            <Formulario />
+          </div>
           <section id="footer" className="">
             <Footer />
           </section>

@@ -87,6 +87,13 @@ img.personagem {
   background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
 }
 
+.formulario {
+  /* margin: 0 auto; */
+  /* justify-content: center; */
+  /* display: flex; */
+  background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
+}
+
 .progress-bar {
   z-index: 50;
   position: fixed;
