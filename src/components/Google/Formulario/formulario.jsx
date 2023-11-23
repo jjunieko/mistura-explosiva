@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Formulario = () => {
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState(false);
   const [formData, setFormData] = useState({
     nomeEscola: "",
     endereco: "",
@@ -67,7 +67,8 @@ const Formulario = () => {
           mensagem: "",
         });
 
-        setMessage("OBRIGAO POR PREENCHER OS DADOS");
+        setMessage(true);
+        window.scrollTo(0, 0);
         return;
       } else {
         console.error(
@@ -82,13 +83,20 @@ const Formulario = () => {
 
   return (
     <div className="formulario container p-20">
+      {/* Mensagem de Agradecimento */}
+      {setMessage && (
+        <div className="text-white text-lg font-bold mb-4">
+          Obrigado por preencher os dados!
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="mx-auto">
         <h1 className="text-3xl font-bold mb-4 text-white">
           Mistura Explosiva na Escola
         </h1>
 
         <p className="text-white">
-        Preencha o formulário abaixo para cadastrar sua escola no projeto <br /> <span className="font-bold">"Mistura Explosiva".</span> 
+          Preencha o formulário abaixo para cadastrar sua escola no projeto{" "}
+          <br /> <span className="font-bold">"Mistura Explosiva".</span>
         </p>
 
         {/* Dados da Escola */}
@@ -141,9 +149,7 @@ const Formulario = () => {
 
         {/* Informações de Contato */}
         <div className="col-span-2 mb-4 mt-2">
-          <h2 className="text-xl mb-2 text-white">
-            Informações de Contato
-          </h2>
+          <h2 className="text-xl mb-2 text-white">Informações de Contato</h2>
         </div>
 
         <div className="grid grid-cols-2 gap-2">
@@ -183,9 +189,7 @@ const Formulario = () => {
 
         {/* Outras Informações */}
         <div className="col-span-2 mb-4">
-          <h2 className="text-xl mb-2 text-white">
-            Outras Informações
-          </h2>
+          <h2 className="text-xl mb-2 text-white">Outras Informações</h2>
         </div>
 
         <div className="grid grid-cols-2 gap-2">

@@ -1,0 +1,10 @@
+{
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-private-property-in-object"
+      // Add any other plugins or configurations you need
+    ]
+  }
+  
